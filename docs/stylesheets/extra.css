@@ -1,0 +1,5 @@
+/* Override the "DARK" mode theme */
+[data-md-color-scheme="slate"] {
+  /* --md-hue: 210; */
+  --md-code-hl-color: #ffff003b
+}
