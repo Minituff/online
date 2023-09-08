@@ -19,8 +19,8 @@ plugins:
   #   enable_creation_date: true
   offline:
   search:
-  minify:
-    minify_html: true
+  # minify:
+  #   minify_html: true
   # autolinks:
   # git-revision-date-localized:
   #   type: date
