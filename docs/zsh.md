@@ -22,14 +22,16 @@ curl --version
 zsh --version && cat /etc/shells | grep zsh #(1)!
 ```
 
-1. should contain *zsh*
+1. These are just 2 commands that help verify `Zsh` is installed.
 
 ## Install oh-my-zsh
 ```bash
- yes | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && zsh
+yes | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && zsh
 ```
 
-### Install and enable plugins
+!!! note "We use the `yes` command here to accept the defaults and make `Zsh` our net default shell"
+
+### Enable plugins
 
 ```bash
 #(1)!
