@@ -66,6 +66,7 @@ Add these to your _~/.zshrc_  by using these commands:
 ```bash
 echo 'alias ll="ls -la"' >> ~/.zshrc
 echo 'alias cls="clear"' >> ~/.zshrc
+echo 'DISABLE_UPDATE_PROMPT=true  # Auto update and dont ask' >> ~/.zshrc
 omz reload
 ```
 
