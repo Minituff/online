@@ -10,9 +10,7 @@ In simple terms, `Zsh` is an alternative to the `Bash` shell which implements a 
 ## Install Requirements
 
 ```bash
-apt install zsh -y
-apt install curl -y
-apt install git -y
+sudo apt install zsh curl git -y
 ```
 
 Verify requirements
@@ -55,11 +53,14 @@ sudo \
 zsh-syntax-highlighting \
 zsh-autosuggestions \
 zsh-completions
+
+omz reload #(3)!
 ```
 
 1. These plugins needed to be downloaded before enabling
 1. Some plugins come pre-installed with `oh-my-zsh`, they just need to be enabled
 1. Here we are enabling our custom plugins
+1. Reload to apply changes
 
 ## Useful commands
 Add these to your _~/.zshrc_  by using these commands:
